@@ -2,6 +2,7 @@
     grid-area: element3;
     background-color: rgb(255, 251, 251);
     column-gap: 10px;
+
     
     
 }
@@ -9,26 +10,54 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+   
 }
 .ciberSegurity__title{
-    align-self: center;
+    margin: auto;
     font-size: 4em;
     font-family: 'Inconsolata', monospace;
     font-family: 'Roboto Mono', monospace;
-    gap: 10px;
+    text-shadow: black 0.1em 0.1em 0.3em
+}
+
+.ciberSegurity__c{
+    display: flex;
+    flex-direction: row;
+}
+.ciberSegurity__cp{
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    margin: 100px;
+ 
 }
 
 .ciberSegurity__p{
     font-family: sans-serif;
-    font-size: 18px;
-    justify-content: center;
-
+    font-size: 24px;
+    text-shadow: gray 0.0em 0.0em 0.3em
 }
 
+.ciberSegurity__pi{
+    margin: 50px 100px;
+}
 .ciberSegurity__img{
+    width:300px;
+    height:500px;
     object-fit: contain;
-    width:70%;
-    height:50%;
     margin: auto;
     border-radius: 100px;
+    box-shadow: 2px 2px 5px #999;
+    
+}
+
+.ciberSegurity__icon{
+    width: 70px;
+    height: 70px;
+    
+}
+
+.ciberSegurity__cpb{
+    margin-top: 100px;
+    margin-left: 40;
 }
