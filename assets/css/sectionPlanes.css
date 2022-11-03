@@ -1,0 +1,28 @@
+.planes{
+    grid-area: element5;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.planes_texto{
+    margin: auto;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(4, 68, 121);
+}
+
+.planes__container__cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.planes__cards{
+    width: 25%;
+    border: 1px solid black;
+    height: 450px;
+}

@@ -18,13 +18,14 @@ body{
   
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
  /*   background:#edeef0; background: url(/-/media/14d553c2e7534d398dac908df063764a.svg)top /contain no-repeat, linear-gradient(to right, #edeef0 0%, #edeef0 100%);*/
     /*grid-auto-rows: 100px;*/
     grid-template-areas: 
     "element1 element2 element2 element2 element2"
     "element3 element3 element3 element3 element3"
     "element4 element4 element4 element4 element4"
+    "element5 element5 element5 element5 element5"
     ;
 }
 

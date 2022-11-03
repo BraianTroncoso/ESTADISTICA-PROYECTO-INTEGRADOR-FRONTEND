@@ -4,6 +4,8 @@
     column-gap: 10px;
     font-family: 'Inconsolata', monospace;
     font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    max-width: 1200px;
    
    
 }
@@ -17,18 +19,27 @@
 }
 .publicidad__h2{
     font-size: 2.5em;
-    color: rgb(16, 4, 121);
+    color: rgb(4, 68, 121);
 }
 .publicidad__container_cards{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 20px;
+    margin: auto;
+  
+    
 }
 
 .publicidad__card{
     margin: auto;
-    width: 200px;
+    width: 30%;
     height: 300px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    border-radius: 1px
 }
 .publicidad__icon{
     display: flex;
@@ -41,13 +52,8 @@
     display: flex;
     margin: auto;
     justify-content: center;
+    font-weight:bold;
+    padding: 15px;
+    color: rgb(4, 68, 121);
 }
 
-/* AGG 
-NAV
-PLANES
-QUIENES SOMOS
-COMO FUNCIONA
-SOMBRA TITULO BORRAR
-CARD PROMOCIONES
-*/
