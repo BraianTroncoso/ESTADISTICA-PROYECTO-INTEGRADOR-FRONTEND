@@ -32,7 +32,7 @@
         <!--NAV-->
         <nav class="nav">
             <a href = "#" class="nav__links">¿QUIENES SOMOS?</a>
-            <a href = "#" class="nav__links">COMO FUNCIONA</a>
+            <a href = "#PILOTO" class="nav__links">COMO FUNCIONA</a>
             <a href = "#PLAN" class="nav__links">PLANES</a>
         </nav>
         <!--ARTICLE-->
@@ -60,7 +60,7 @@
         </article>
        <!--  SECTION CARD PUBLICIDAD -->
         <section class="publicidad">
-                <div class="publicidad__texto">
+                <div class="publicidad__texto" id="PILOTO">
                     <h2 class="publicidad__h2">
                         PILOTO AUTOMÁTICO PARA TODAS SUS CONTRASEÑAS
                     </h2>
@@ -209,26 +209,33 @@
             </div>
         </section>
         <section class="contacto">
+          
             <div class="contacto__container">
+            
                 <!-- <div class="contacto__container__img">
                      <img class="contacto__img" src="assets/img/contacto.jpeg" alt="contacto"> 
                 </div> -->
                 <div class="contacto__container__form">
+                  
+                   
                     <form class="form__contacto">
                         <h2 class="form__contacto__h2">
                             CONTACTO
                         </h2>
-                        <div class="form__contacto__input">
+                       
+                        <div class="form">
                             <label for="nombre">Nombre</label>
-                            <input class="form__contacto__input__text" type="text" name="nombre" id="nombre">
+
+                            <input class="form" type="text" name="nombre" id="nombre">
                         </div>
-                        <div class="form__contacto__input">
+                        <div class="form">
                             <label for="correo">Correo</label>
-                            <input class="form__contacto__input__text" type="email" name="correo" id="correo">
+
+                            <input class="form" type="email" name="correo" id="correo">
                         </div>
-                        <div class="form__contacto__input">
+                        <div class="form">
                             <label for="mensaje">Mensaje</label>
-                            <textarea class="form__contacto__input__text" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                            <textarea class="form__contacto__input__text" name="mensaje" id="mensaje" cols="40" rows="10"></textarea>
                         </div>
                         <input class="form__contacto__input__submit" type="submit" value="Enviar">
                     </form>
@@ -248,12 +255,12 @@
                     <a href="https://www.instagram.com/" target="_blank" class="footer__redes">
                         <img class="footer__redes__img" src="assets/img/instagram.png" alt="Instagram" srcset="">
                     </a>
-                    <a href="https://twitter.com/" target="_blank" class="footer__redes">
+             <!--        <a href="https://twitter.com/" target="_blank" class="footer__redes">
                         <img class="footer__redes__img" src="assets/img/twitter.png" alt="Twitter" srcset="">
                     </a>
-                    <a href="https://www.youtube.com/" target="_blank" class="footer__redes">
-                        <img class="footer__redes__img" src="assets/img/youtube.png" alt="Youtube" srcset="">
-                    </a>
+<!--                     <a href="https://www.youtube.com/" target="_blank" class="footer__redes">
+                        <img class="footer__redes__img" src="assets/img/youtube.png" alt="Youtube" srcset=""> -->
+                  <!--   </a> --> 
                     <a href="https://www.linkedin.com/" target="_blank" class="footer__redes">
                         <img class="footer__redes__img" src="assets/img/linkedin.png" alt="Linkedin" srcset="">
                     </a>
@@ -263,6 +270,7 @@
                     </a>
                 </div>
                 <div class="footer__container__links">
+                    <img class="logo__footer" src="/assets/img/logo_sin_fondo.png" alt="logo-utn-sin-fondo" srcset="">
                     <a href="#" class="footer__links">
                         <p class="footer__links__p">
                             Política de privacidad
