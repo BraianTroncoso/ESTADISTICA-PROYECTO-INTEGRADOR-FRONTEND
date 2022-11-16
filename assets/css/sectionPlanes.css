@@ -109,3 +109,171 @@
 .li_p{
     padding-top: 5px;
 }
+
+/*Hacer diseño responsivo para pantalla grande (1024), tablet (768) y celular (480)*/
+
+@media screen and (max-width: 1024px){
+    .planes{
+        padding: 50px 0;
+    }
+    .planes__container__cards{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .planes__cards{
+        width: 40%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        overflow: hidden;
+    }
+    .planes__cards__tittle{
+        border-bottom: 2px solid rgba(49, 138, 172, 1);;
+        font-weight: 900;
+        padding: 30px;
+    }
+    .planes__cards__p{
+        font-weight: 900;
+        padding: 25%;   
+        position: relative;
+        bottom: 30px;
+    }
+    .card_especial{
+        box-shadow: 0 4px 16px rgb(49, 172, 121);
+    }
+    .card_especial_t{
+        border-bottom: 2px solid rgb(49, 172, 121);
+    }
+    .solicitar_plan{
+        text-decoration: none;
+        color:#c70b14;
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 28px;
+        -webkit-box-shadow: 6px 5px 24px #666666;
+        -moz-box-shadow: 6px 5px 24px #666666;
+        box-shadow: 6px 5px 24px #c70b14
+        font-size: 20px;    
+        padding: 15px;
+        text-decoration: none;
+        position: relative;
+        bottom: 40px;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    @media screen and (max-width: 768px){
+        .planes{
+            padding: 50px 0;
+        }
+        .planes__container__cards{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        .planes__cards{
+            width: 80%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            border-radius: 20px;
+            box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+            overflow: hidden;
+        }
+        .planes__cards__tittle{
+            border-bottom: 2px solid rgba(49, 138, 172, 1);;
+            font-weight: 900;
+            padding: 30px;
+        }
+        .planes__cards__p{
+            font-weight: 900;
+            padding: 25%;   
+            position: relative;
+            bottom: 30px;
+        }
+        .card_especial{
+            box-shadow: 0 4px 16px rgb(49, 172, 121);
+        }
+        .card_especial_t{
+            border-bottom: 2px solid rgb(49, 172, 121);
+        }
+        .solicitar_plan{
+            text-decoration: none;
+            color:#c70b14;
+            -webkit-border-radius: 10;
+            -moz-border-radius: 10;
+            border-radius: 28px;
+            -webkit-box-shadow: 6px 5px 24px #666666;
+            -moz-box-shadow: 6px 5px 24px #666666;
+            box-shadow: 6px 5px 24px #c70b14
+            font-size: 20px;    
+            padding: 15px;
+            text-decoration: none;
+            position: relative;
+            bottom: 40px;
+            font-family: 'Inconsolata', monospace;
+        }
+        
+@media screen and (max-width: 480px){
+    .planes{
+        padding: 50px 0;
+    }
+    .planes__container__cards{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .planes__cards{
+        width: 80%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        border-radius: 20px;
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        overflow: hidden;
+    }
+    .planes__cards__tittle{
+        border-bottom: 2px solid rgba(49, 138, 172, 1);;
+        font-weight: 900;
+        padding: 30px;
+    }
+    .planes__cards__p{
+        font-weight: 900;
+        padding: 25%;   
+        position: relative;
+        bottom: 30px;
+    }
+    .card_especial{
+        box-shadow: 0 4px 16px rgb(49, 172, 121);
+    }
+    .card_especial_t{
+        border-bottom: 2px solid rgb(49, 172, 121);
+    }
+    .solicitar_plan{
+        text-decoration: none;
+        color:#c70b14;
+        -webkit-border-radius: 10;
+        -moz-border-radius: 10;
+        border-radius: 28px;
+        -webkit-box-shadow: 6px 5px 24px #666666;
+        -moz-box-shadow: 6px 5px 24px #666666;
+        box-shadow: 6px 5px 24px #c70b14
+        font-size: 20px;    
+        padding: 15px;
+        text-decoration: none;
+        position: relative;
+        bottom: 40px;
+        font-family: 'Inconsolata', monospace;
+    }
+    
+
+}
+
