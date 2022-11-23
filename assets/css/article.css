@@ -1,135 +1,129 @@
-.article{
-    grid-area: element3;
-    background-color: rgb(255, 251, 251);
-    column-gap: 10px;
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Roboto Mono', monospace;
+.article {
+  grid-area: element3;
+  background-color: rgb(255, 251, 251);
+  column-gap: 10px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Roboto Mono", monospace;
 }
-.ciberSegurity{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-   
+.ciberSegurity {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.ciberSegurity__title{
-    margin: auto;
-    font-size: 4em;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.ciberSegurity__c{
-    display: flex;
-    flex-direction: row;
-}
-.ciberSegurity__cp{
-    width: 400px;
-    height: 400px;
-    align-self: center;
-    margin: 100px;
- 
+.ciberSegurity__title {
+  margin: auto;
+  font-size: 4em;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.ciberSegurity__p{
-    font-size: 2em;
+.ciberSegurity__c {
+  display: flex;
+  flex-direction: row;
+}
+.ciberSegurity__cp {
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin: 100px;
 }
 
-.ciberSegurity__pi{
-    margin: 50px 100px;
-}
-.ciberSegurity__img{
-    width:300px;
-    height:500px;
-    object-fit: contain;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #999;
-    
+.ciberSegurity__p {
+  font-size: 2em;
 }
 
-.ciberSegurity__icon{
-    width: 70px;
-    height: 70px;
+.ciberSegurity__pi {
+  margin: 50px 100px;
 }
-.segurityPrincipal{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    align-self: center;
-    align-items: center;
-   
+.ciberSegurity__img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.ciberSegurity__icon {
+  width: 70px;
+  height: 70px;
+}
+.segurityPrincipal {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-self: center;
+  align-items: center;
 }
 
 /*Hacer diseño responsivo para pantalla grande (1024), tablet (768) y celular (480)*/
 
-@media screen and (max-width: 768px){
-    .ciberSegurity__c{
-        flex-direction: column;
-    }
-    .ciberSegurity__cp{
-        margin: 0;
-    }
-    .ciberSegurity__img{
-        width: 100%;
-        height: 100%;
-    }
-    .ciberSegurity__pi{
-        margin: 0;
-    }
-    .ciberSegurity__p{
-        font-size: 1.5em;
-    }
-    .ciberSegurity__title{
-        font-size: 2em;
-    }
+@media screen and (max-width: 768px) {
+  .ciberSegurity__c {
+    flex-direction: column;
+  }
+  .ciberSegurity__cp {
+    margin: 0;
+  }
+  .ciberSegurity__img {
+    width: 100%;
+    height: 100%;
+  }
+  .ciberSegurity__pi {
+    margin: 0;
+  }
+  .ciberSegurity__p {
+    font-size: 1.5em;
+  }
+  .ciberSegurity__title {
+    font-size: 2em;
+  }
 }
 
 /*Hacer diseño responsivo para celular*/
 
-@media screen and (max-width: 480px){
-    .ciberSegurity__c{
-        flex-direction: column;
-    }
-    .ciberSegurity__cp{
-        margin: 0;
-    }
-    .ciberSegurity__img{
-        width: 100%;
-        height: 100%;
-    }
-    .ciberSegurity__pi{
-        margin: 0;
-    }
-    .ciberSegurity__p{
-        font-size: 1.5em;
-    }
-    .ciberSegurity__title{
-        font-size: 2em;
-    }
+@media screen and (max-width: 480px) {
+.ciberSegurity__c {
+    flex-direction: column;
+  }
+.ciberSegurity__cp {
+    margin: 0;
+  }
+.ciberSegurity__img {
+    width: 100%;
+    height: 100%;
+  }
+.ciberSegurity__pi {
+    margin: 0;
+  }
+.ciberSegurity__p {
+    font-size: 1.5em;
+  }
+  .ciberSegurity__title {
+    font-size: 2em;
+  }
 }
 
 /*Hacer diseño responsivo para tablet*/
 
-@media screen and (max-width: 1024px){
-    .ciberSegurity__c{
-        flex-direction: column;
-    }
-    .ciberSegurity__cp{
-        margin: 0;
-    }
-    .ciberSegurity__img{
-        width: 100%;
-        height: 100%;
-    }
-    .ciberSegurity__pi{
-        margin: 0;
-    }
-    .ciberSegurity__p{
-        font-size: 1.5em;
-    }
-    .ciberSegurity__title{
-        font-size: 2em;
-    }
+@media screen and (max-width: 1024px) {
+  .ciberSegurity__c {
+    flex-direction: column;
+  }
+  .ciberSegurity__cp {
+    margin: 0;
+  }
+  .ciberSegurity__img {
+    width: 100%;
+    height: 100%;
+  }
+  .ciberSegurity__pi {
+    margin: 0;
+  }
+  .ciberSegurity__p {
+    font-size: 1.5em;
+  }
+  .ciberSegurity__title {
+    font-size: 2em;
+  }
 }
-
-

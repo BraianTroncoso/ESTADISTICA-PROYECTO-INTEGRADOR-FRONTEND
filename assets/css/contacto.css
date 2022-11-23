@@ -51,31 +51,31 @@ display: flex;
 /*Hacer diseño responsivo para pantalla grande (1024), tablet (768) y celular (480)*/
 
 @media screen and (max-width: 1024px){
-    .contacto{
+.contacto{
         padding: 50px 0;
     }
-    .contacto__container{
+.contacto__container{
         display: flex;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .contacto__container__form{
+.contacto__container__form{
     align-items: center;
     align-content: center;
     display: flex;
     
     }
-    .form__contacto{
+.form__contacto{
         width: 100%;
         margin: auto;
     }
-    .form__contacto__input{
+.form__contacto__input{
        
         width: 500px;
     
     }
-    .form{
+.form{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -84,7 +84,7 @@ display: flex;
         margin-top: 5px;
     }
     
-    .form__contacto__h2{
+.form__contacto__h2{
         font-size: 3em;
         display: flex;
         align-self: center;
@@ -94,31 +94,32 @@ display: flex;
     }
     
 @media screen and (max-width: 768px){
-        .contacto{
+.contacto{
             padding: 50px 0;
         }
-        .contacto__container{
+.contacto__container{
             display: flex;
             width: 100%;
             justify-content: center;
             align-items: center;
         }
-        .contacto__container__form{
+.contacto__container__form{
         align-items: center;
         align-content: center;
         display: flex;
         
         }
-        .form__contacto{
+.form__contacto{
             width: 100%;
             margin: auto;
         }
-        .form__contacto__input{
+.form__contacto__input{
            
             width: 500px;
         
         }
-        .form{
+.form
+{
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -127,7 +128,7 @@ display: flex;
             margin-top: 5px;
         }
         
-        .form__contacto__h2{
+.form__contacto__h2{
             font-size: 3em;
             display: flex;
             align-self: center;
@@ -137,31 +138,31 @@ display: flex;
         }
     
 @media screen and (max-width: 480px){
-            .contacto{
+.contacto{
                 padding: 50px 0;
             }
-            .contacto__container{
+.contacto__container{
                 display: flex;
                 width: 100%;
                 justify-content: center;
                 align-items: center;
             }
-            .contacto__container__form{
+.contacto__container__form{
             align-items: center;
             align-content: center;
             display: flex;
             
             }
-            .form__contacto{
+.form__contacto{
                 width: 100%;
                 margin: auto;
             }
-            .form__contacto__input{
+.form__contacto__input{
                
                 width: 500px;
             
             }
-            .form{
+.form{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -170,7 +171,7 @@ display: flex;
                 margin-top: 5px;
             }
             
-            .form__contacto__h2{
+.form__contacto__h2{
                 font-size: 3em;
                 display: flex;
                 align-self: center;
