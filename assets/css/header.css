@@ -16,24 +16,21 @@
 
 @media screen and (max-width: 1024px){
 .header{
-        padding: 50px 0;
+        grid-area: element1;
+       
     }
-.header__logo{
-        width: 100%;
-        height: 100%;
-    }
+
 }
 
 /*Hacer diseño responsivo para celular*/
 
 @media screen and (max-width: 768px){
+
 .header{
-        padding: 50px 0;
+    grid-area: element1;
+       
     }
-.header__logo{
-        width: 100%;
-        height: 100%;
-    }
+
 }
 
 
@@ -41,11 +38,8 @@
 
 @media screen and (max-width: 480px){
 .header{
-        padding: 50px 0;
+    grid-area: element1;
+       
     }
-.header__logo{
-        width: 100%;
-        height: 100%;
-    }
-}
 
+}

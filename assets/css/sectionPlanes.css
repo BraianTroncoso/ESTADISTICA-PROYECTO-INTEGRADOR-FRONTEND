@@ -88,8 +88,8 @@
 .solicitar_plan__especial {
     text-decoration: none;
     color: rgb(49, 172, 121);
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
     border-radius: 28px;
     -webkit-box-shadow: 6px 5px 24px #666666;
     -moz-box-shadow: 6px 5px 24px #666666;
@@ -97,6 +97,8 @@
     font-size: 20px;
     padding: 15px;
     text-decoration: none;
+    bottom: 40px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .solicitar_plan__especial:hover {
@@ -120,192 +122,61 @@
 
 /*Hacer diseño responsivo para pantalla grande (1024), tablet (768) y celular (480)*/
 
-@media screen and (max-width: 1024px) { 
-.planes {
-        padding: 50px 0;
-    }
 
-.planes__container__cards {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-.planes__cards {
-        width: 40%;
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        border-radius: 20px;
-        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-        overflow: hidden;
-    }
-
-.planes__cards__tittle {
-        border-bottom: 2px solid rgba(49, 138, 172, 1);
-        ;
-        font-weight: 900;
-        padding: 30px;
-    }
-
-.planes__cards__p {
-        font-weight: 900;
-        padding: 25%;
-        position: relative;
-        bottom: 30px;
-    }
-
-.card_especial {
-        box-shadow: 0 4px 16px rgb(49, 172, 121);
-    }
-
-.card_especial_t {
-        border-bottom: 2px solid rgb(49, 172, 121);
-    }
-
-.solicitar_plan {
-        text-decoration: none;
-        color: #c70b14;
-        -webkit-border-radius: 10;
-        -moz-border-radius: 10;
-        border-radius: 28px;
-        -webkit-box-shadow: 6px 5px 24px #666666;
-        -moz-box-shadow: 6px 5px 24px #666666;
-        box-shadow: 6px 5px 24px #c70b14 ;
-        font-size: 20px;
-        padding: 15px;
-        text-decoration: none;
-        position: relative;
-        bottom: 40px;
-        font-family: 'Inconsolata', monospace;
-    }
-}
 
 @media screen and (max-width: 768px) {
 .planes {
-            padding: 50px 0;
-        }
+        grid-area: element5;
+       
+    }
 
-.planes__container__cards {
-            display: flex;
-            width: 100%;
-            justify-content: center;
-        }
 
-.planes__cards {
-            width: 80%;
-            height: 600px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            align-content: center;
-            border-radius: 20px;
-            box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-            overflow: hidden;
-        }
-
-.planes__cards__tittle {
-            border-bottom: 2px solid rgba(49, 138, 172, 1);
-            ;
-            font-weight: 900;
-            padding: 30px;
-        }
-
-.planes__cards__p {
-            font-weight: 900;
-            padding: 25%;
-            position: relative;
-            bottom: 30px;
-        }
-
-.card_especial {
-            box-shadow: 0 4px 16px rgb(49, 172, 121);
-        }
-
-.card_especial_t {
-            border-bottom: 2px solid rgb(49, 172, 121);
-        }
-
-.solicitar_plan {
-            text-decoration: none;
-            color: #c70b14;
-            -webkit-border-radius: 10;
-            -moz-border-radius: 10;
-            border-radius: 28px;
-            -webkit-box-shadow: 6px 5px 24px #666666;
-            -moz-box-shadow: 6px 5px 24px #666666;
-            box-shadow: 6px 5px 24px #c70b14 ;
-            font-size: 20px;
-            padding: 15px;
-            text-decoration: none;
-            position: relative;
-            bottom: 40px;
-            font-family: 'Inconsolata', monospace;
-        }
  }
 @media screen and (max-width: 480px) {
 .planes {
-                padding: 50px 0;
-            }
+        grid-area: element5;
+    
+       
+    }
 
-.planes__container__cards {
-                display: flex;
-                width: 100%;
-                justify-content: center;
-            }
-
-.planes__cards {
-                width: 80%;
-                height: 600px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                align-content: center;
-                border-radius: 20px;
-                box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
-                overflow: hidden;
-            }
-
-.planes__cards__tittle {
-                border-bottom: 2px solid rgba(49, 138, 172, 1);
-                ;
-                font-weight: 900;
-                padding: 30px;
-            }
-.planes__cards__p {
-                font-weight: 900;
-                padding: 25%;
-                position: relative;
-                bottom: 30px;
-            }
-
-.card_especial {
-                box-shadow: 0 4px 16px rgb(49, 172, 121);
-            }
-
-.card_especial_t {
-                border-bottom: 2px solid rgb(49, 172, 121);
-            }
-
-.solicitar_plan {
-                text-decoration: none;
-                color: #c70b14;
-                -webkit-border-radius: 10;
-                -moz-border-radius: 10;
-                border-radius: 28px;
-                -webkit-box-shadow: 6px 5px 24px #666666;
-                -moz-box-shadow: 6px 5px 24px #666666;
-                box-shadow: 6px 5px 24px #c70b14; 
-                font-size: 20px;
-                padding: 15px;
-                text-decoration: none;
-                position: relative;
-                bottom: 40px;
-                font-family: 'Inconsolata', monospace;
-            }
-
-
+ }
+ @media screen and (max-width: 1024px) { 
+    .planes {
+            grid-area: element5;
+           
         }
-         
+    .planes_texto{
+        font-size: 1em;
+    }
+    .publicidad{
+        grid-area: element4;
+       
+ }
+    .ul_p{
+    width: 100%;
+    padding-right: 20px;
+}
+    .li_p{
+    align-self: center;
+    font-size: 12px;
+}
+.planes__cards {
+    width: 25%;
+    height: 500px;
+    }
+.solicitar_plan{
+    font-size: 15px;
+}    
+.planes__cards__p {
+    font-weight: 900;
+    padding: 20%;
+    position: relative;
+    bottom: 20px;
+    font-size: 13px;
+
+}
+.planes__precio {
+    font-size: 50px;
+    position: relative;
+}
+ }

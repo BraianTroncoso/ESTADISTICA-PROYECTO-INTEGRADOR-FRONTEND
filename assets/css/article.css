@@ -59,71 +59,45 @@
 /*Hacer diseño responsivo para pantalla grande (1024), tablet (768) y celular (480)*/
 
 @media screen and (max-width: 768px) {
-  .ciberSegurity__c {
-    flex-direction: column;
-  }
-  .ciberSegurity__cp {
-    margin: 0;
-  }
-  .ciberSegurity__img {
-    width: 100%;
-    height: 100%;
-  }
-  .ciberSegurity__pi {
-    margin: 0;
-  }
-  .ciberSegurity__p {
-    font-size: 1.5em;
-  }
-  .ciberSegurity__title {
-    font-size: 2em;
-  }
+.article{
+  grid-area: element3;
+}
+
+
 }
 
 /*Hacer diseño responsivo para celular*/
 
 @media screen and (max-width: 480px) {
-.ciberSegurity__c {
-    flex-direction: column;
+  .article{
+    grid-area: element3;
   }
-.ciberSegurity__cp {
-    margin: 0;
-  }
-.ciberSegurity__img {
-    width: 100%;
-    height: 100%;
-  }
-.ciberSegurity__pi {
-    margin: 0;
-  }
-.ciberSegurity__p {
-    font-size: 1.5em;
-  }
-  .ciberSegurity__title {
-    font-size: 2em;
-  }
+  
 }
 
 /*Hacer diseño responsivo para tablet*/
 
 @media screen and (max-width: 1024px) {
-  .ciberSegurity__c {
-    flex-direction: column;
-  }
-  .ciberSegurity__cp {
-    margin: 0;
-  }
-  .ciberSegurity__img {
+  .article{
+    grid-area: element3;
     width: 100%;
-    height: 100%;
-  }
-  .ciberSegurity__pi {
-    margin: 0;
-  }
-  .ciberSegurity__p {
-    font-size: 1.5em;
+
+  
   }
   .ciberSegurity__title {
-    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin: auto;
   }
-}
+  .ciberSegurity__cp{
+    width: 100%;
+  }
+  .ciberSegurity__p{
+    font-size: 1.5em;
+  }
+  .ciberSegurity__img{
+    width: 250px;
+    height: 450px;
+  }
+  }
