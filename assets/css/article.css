@@ -81,8 +81,6 @@
   .article{
     grid-area: element3;
     width: 100%;
-
-  
   }
   .ciberSegurity__title {
     display: flex;
